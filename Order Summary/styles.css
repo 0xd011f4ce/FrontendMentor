@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Red Hat Display", sans-serif;
+	font-size: 1.6rem;
+
+	background: url(images/pattern-background-desktop.svg);
+	background-repeat: repeat-x;
+	background-color: hsl(225, 100%, 94%);
+
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* General elements */
+p {
+	color: hsl(224, 23%, 55%);
+	font-weight: 500;
+	line-height: 1.6;
+}
+
+a:link,
+a:visited {
+	color: hsl(245, 75%, 52%);
+	transition: all 100ms;
+}
+
+a:hover,
+a:active {
+	color: #766cf1;
+	text-decoration: none;
+}
+
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+	color: hsl(224, 23%, 55%);
+	padding: 1.6rem;
+
+	transition: all 300ms;
+}
+
+.btn:hover,
+.btn:active {
+	color: hsl(223, 47%, 23%);
+}
+
+.btn-primary:link,
+.btn-primary:visited {
+	background-color: hsl(245, 75%, 52%);
+	color: #fff;
+	border-radius: 12px;
+	box-shadow: 0 1rem 20px hsl(245, 75%, 52%, 0.3);
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+	background-color: #766cf1;
+	box-shadow: 0 1rem 20px rgba(118, 108, 241, 0.5);
+}
+
+.mb-normal {
+	margin-bottom: 2.4rem !important;
+}
+
+.flex-left {
+	justify-self: flex-end;
+}
+
+/* Order summary */
+.order-summary {
+	max-width: 45rem;
+	background-color: #fff;
+	border-radius: 12px;
+}
+
+.order-summary-img {
+	width: 100%;
+	border-radius: 12px 12px 0 0;
+}
+
+.summary-content {
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 3.2rem 0 2rem 0;
+	text-align: center;
+}
+
+.summary-heading,
+.plan-title {
+	color: hsl(223, 47%, 23%);
+}
+
+.summary-heading {
+	font-weight: 900;
+	font-size: 3.2rem;
+	margin-bottom: 2.4rem;
+}
+
+.summary-description {
+	margin-bottom: 2rem;
+}
+
+.summary-plan {
+	width: 100%;
+	background-color: hsl(225, 100%, 98%);
+	padding: 2.4rem;
+	border-radius: 12px;
+	margin-bottom: 3.6rem;
+
+	display: grid;
+	grid-template-columns: 4.8rem 1fr 1fr;
+	align-items: center;
+	gap: 1.6rem;
+}
+
+.plan-icon-container {
+	background-color: hsl(225, 100%, 94%);
+	border-radius: 50%;
+
+	/* i don't think we need this circle to be responsive? 0.o */
+	width: 4.8rem;
+	height: 4.8rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.plan-icon {
+	stroke: hsl(224, 23%, 55%);
+
+	width: 24px;
+	height: 24px;
+}
+
+.plan-description {
+	text-align: left;
+}
+
+.plan-title {
+	font-weight: 900;
+	font-size: 1.8rem;
+}
+
+.plan-price {
+	font-size: 1.8rem;
+}
+
+/* default frontendmentor */
+.attribution {
+	font-size: 16px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}

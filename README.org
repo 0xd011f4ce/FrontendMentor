@@ -1,0 +1,26 @@
+* FrontendMentor
+
+In this repository I have all the solutions for some FrontendMentor challenges
+that I do, I will try to do as many challenges as possible as I am currently
+learning web design, so I think it is really useful and I also hope this is
+useful for you so we all learn together 🤗
+
+** Licensing
+
+All the code that I write (*.html*, *.css*) files are licenses under the
+GPL-3.0-or-later license, I am not sure what's the license of the images and
+resources provided by FrontendMentor, but every single line of code that's
+written by me is under that license
+
+** Things I want to do
+
+I want to have a cute portfolio where I showcase some of my designs (including
+these FrontendMentor challenges) so here are some things that I want to do
+for that, mainly so I don't forget:
+
+- [ ] A portfolio website
+  - [ ] I want a hero with a cool pic of me?
+  - [ ] A section where all my solutions are listed
+    - [ ] Add a filter for the challenges based on difficulty
+
+ When I think of anything else, I'll add it there

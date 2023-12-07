@@ -21,13 +21,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot_desktop.jpg)
-![](./screenshot_mobile.jpg)
+![](./screenshot_desktop.png)
+![](./screenshot_mobile.png)
 
 ### Links
 
-- Solution URL: [Here](https://github.com/0xd011f4ce/FrontendMentor/tree/main/Stats Preview Card)
-- Live Site URL: [Here](https://0xd011f4ce.github.io/FrontendMentor/Stats Preview Card)
+- Solution URL: [Here](https://github.com/0xd011f4ce/FrontendMentor/tree/main/Stats%20Preview%20Card)
+- Live Site URL: [Here](https://0xd011f4ce.github.io/FrontendMentor/Stats%20Preview%20Card)
 
 ## My process
 

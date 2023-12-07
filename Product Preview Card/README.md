@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Here](https://github.com/0xd011f4ce/FrontendMentor/tree/main/Product%20Review%20Card)
-- Live Site URL: [Here](https://0xd011f4ce.github.io/FrontendMentor/Product%20Review%20Card)
+- Solution URL: [Here](https://github.com/0xd011f4ce/FrontendMentor/tree/main/Product%20Preview%20Card)
+- Live Site URL: [Here](https://0xd011f4ce.github.io/FrontendMentor/Product%20Preview%20Card)
 
 ## My process
 
